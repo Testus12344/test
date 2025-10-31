@@ -4,7 +4,7 @@ export default async function handler(req, res) {
     // Beispiel: hole Daten von kongregate (homepage als HTML) oder
     // von einer anderen erlaubten API (hier als Demo).
     // Wenn du eine API mit Key nutzen willst, speichere den Key in Vercel Env.
-    const target = "https://146.75.117.36:443"; // feste Zielseite
+    const target = "www.kongregate.com"; // feste Zielseite
     const r = await fetch(target, {
       headers: { "User-Agent": "MeinEinfacherServer/1.0" }
     });
